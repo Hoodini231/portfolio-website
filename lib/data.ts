@@ -38,7 +38,7 @@ export const links = [
   },
 ] as const;
 
-export const experienceData = [
+export const experiencesData = [
   {
     title: "Full-Stack Software developer",
     location: "Singapore, Turtech (SPCA)",
@@ -49,32 +49,6 @@ export const experienceData = [
   }
 ] as const;
 
-// export const experiencesData = [
-//   {
-//     title: "Hack for Good, DSC",
-//     location: "Singapore, NUS",
-//     description:
-//       "Back-end developer devel",
-//     icon: React.createElement(LuGraduationCap),
-//     date: "2024",
-//   },
-//   {
-//     title: "IdeaJam 2024",
-//     location: "Singapore, NTU",
-//     description:
-//       "Participated in a ideathon which focused on supply chain issues, in particular agritech and food security in Singapore. My team proposed a solution which helps local suppliers with sales and reducing food wastage for suppliers and retailers.",
-//     icon: React.createElement(CgWorkAlt),
-//     date: "2024",
-//   },
-//   {
-//     title: "BrainHack 2024, Runner's up for People's Choice",
-//     location: "Singapore, DSTA",
-//     description:
-//       "Full-stack developer for turtogotchi, ",
-//     icon: React.createElement(FaReact),
-//     date: "2021 - present",
-//   },
-// ] as const;
 
 export const projectsData = [
   {
