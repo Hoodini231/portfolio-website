@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="@/public/shaun.png" // Replace with the path to your local image
+              src="/shaun.png" // Replace with the path to your local image
               alt="Shaun portrait"
               width="192"
               height="192"
