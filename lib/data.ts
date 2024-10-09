@@ -28,14 +28,25 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  // {
-  //   name: "Experience",
-  //   hash: "#experience",
-  // },
+  {
+    name: "Experience",
+    hash: "#experience",
+  },
   {
     name: "Contact",
     hash: "#contact",
   },
+] as const;
+
+export const experienceData = [
+  {
+    title: "Full-Stack Software developer",
+    location: "Singapore, Turtech (SPCA)",
+    description: "Project I started with a frew friends which is currently backed and funded by SPCA. We are building a mobile game to promote awareness and educate others on the current issues facing pet adoption.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
+
+  }
 ] as const;
 
 // export const experiencesData = [
